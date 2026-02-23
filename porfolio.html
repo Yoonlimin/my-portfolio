@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>Portfolio | Junior Software Developer</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    body { background: radial-gradient(1200px 600px at 20% 0%, rgba(56,189,248,.18), transparent 55%),
-                    radial-gradient(1000px 500px at 90% 10%, rgba(129,140,248,.18), transparent 55%),
-                    #0b1220; }
-    .glass { backdrop-filter: blur(10px); background: rgba(15, 23, 42, .55); }
-    .ring-soft { box-shadow: 0 0 0 1px rgba(148,163,184,.18) inset; }
+    body {
+      background: radial-gradient(1200px 600px at 20% 0%, rgba(225, 175, 217, 0.18), transparent 55%),
+        radial-gradient(1000px 500px at 90% 10%, rgba(246, 123, 232, 0.18), transparent 55%),
+        rgb(32, 11, 31);
+    }
+
+    .glass {
+      backdrop-filter: blur(10px);
+      background: rgba(37, 15, 42, 0.55);
+    }
+
+    .ring-soft {
+      box-shadow: 0 0 0 1px rgba(178, 148, 184, 0.18) inset;
+    }
+
     .grad-text {
-      background: linear-gradient(90deg, #38bdf8, #a78bfa);
+      background: linear-gradient(90deg, #e238f8, #a78bfa);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -27,7 +38,7 @@
         <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-sky-500/10 ring-soft">
           <span class="text-sky-400 text-lg">Y</span>
         </span>
-        <span class="text-lg">YourName<span class="text-sky-400">.dev</span></span>
+        <span class="text-lg">Yoon Waddy Myo Myint<span class="text-sky-400"> .dev</span></span>
       </a>
 
       <div class="hidden md:flex items-center gap-6 text-sm text-slate-200">
@@ -35,7 +46,8 @@
         <a class="hover:text-sky-400 transition" href="#skills">Skills</a>
         <a class="hover:text-sky-400 transition" href="#certs">Certifications</a>
         <a class="hover:text-sky-400 transition" href="#contact">Contact</a>
-        <a href="#contact" class="ml-2 px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-600 text-slate-950 font-semibold transition">
+        <a href="#contact"
+          class="ml-2 px-4 py-2 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 hover:opacity-90 text-white font-semibold transition">
           Hire Me
         </a>
       </div>
@@ -55,26 +67,31 @@
           Open to Junior Software Developer / Full-Stack roles
         </div>
 
-        <h1 class="mt-5 text-4xl md:text-6xl font-extrabold leading-tight">
-          Building <span class="grad-text">reliable software</span><br/>
-          with Full-Stack & Cloud skills.
+        <h1 class="mt-5 text-4xl md:text-6l font-extrabold leading-tight">
+          Building <span class="grad-text">reliable software</span><br />
+          with continuously improving as a Developer.
         </h1>
 
         <p class="mt-4 text-slate-300 text-lg max-w-2xl">
-          I’m <span class="font-semibold text-slate-100">Yoon Waddy Myo Myint</span> — a junior software developer focused on
-          React/Next.js, backend APIs, authentication, databases, and AWS fundamentals.
-          I’ve shipped senior projects like <span class="text-sky-300 font-semibold">REO</span> and
-          <span class="text-sky-300 font-semibold">SwapWise</span>.
+          I’m <span class="font-semibold text-slate-100">Yoon Waddy Myo Myint</span> - a junior software developer
+          focused on
+          Java, backend APIs, authentication and databases.
+          I’ve played a major role in developing full-stack senior projects including <span
+            class="text-sky-300 font-semibold">REO</span> and
+          <span class="text-sky-300 font-semibold">SwapWise</span>, contributing to both frontend and backend features
+          such as authentication systems, database design, and cloud deployment.
         </p>
 
         <div class="mt-7 flex flex-wrap gap-3">
-          <a href="#projects" class="px-6 py-3 rounded-2xl bg-white text-slate-900 font-bold hover:bg-slate-200 transition">
+          <a href="#projects"
+            class="px-6 py-3 rounded-2xl bg-white text-slate-900 font-bold hover:bg-slate-200 transition">
             View Projects
           </a>
           <a href="#contact" class="px-6 py-3 rounded-2xl border border-slate-700 hover:bg-slate-800/60 transition">
             Contact
           </a>
-          <a href="YOUR_CV_LINK.pdf" class="px-6 py-3 rounded-2xl border border-slate-700 hover:bg-slate-800/60 transition">
+          <a href="YOUR_CV_LINK.pdf"
+            class="px-6 py-3 rounded-2xl border border-slate-700 hover:bg-slate-800/60 transition">
             Download CV
           </a>
         </div>
@@ -95,10 +112,12 @@
         <div class="glass ring-soft rounded-3xl p-6">
           <div class="flex items-center gap-4">
             <div class="h-14 w-14 rounded-2xl bg-slate-800 ring-soft flex items-center justify-center text-slate-400">
-              IMG
+
+              <img src="profile-2.jpg" alt="Profile Picture" class="h-full w-full object-cover rounded-2xl">
+
             </div>
             <div>
-              <p class="font-bold text-lg">Your Name</p>
+              <p class="font-bold text-lg">Yoon Waddy Myo Myint</p>
               <p class="text-slate-300 text-sm">Bangkok, Thailand · Burmese</p>
             </div>
           </div>
@@ -110,7 +129,7 @@
             </div>
             <div class="p-3 rounded-2xl bg-slate-900/40 ring-soft">
               <p class="text-slate-400 text-xs">Strength</p>
-              <p class="font-semibold">Auth + DB</p>
+              <p class="font-semibold">Auth + Database</p>
             </div>
             <div class="p-3 rounded-2xl bg-slate-900/40 ring-soft">
               <p class="text-slate-400 text-xs">Cloud</p>
@@ -126,24 +145,23 @@
             <p class="font-semibold text-slate-100">Quick Links</p>
             <div class="mt-2 space-y-2">
               <a class="block px-4 py-2 rounded-xl bg-slate-900/40 ring-soft hover:bg-slate-900/60 transition"
-                 href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noreferrer">
-                GitHub · github.com/YOUR_GITHUB_USERNAME
+                href="https://github.com/Yoonlimin" target="_blank" rel="noreferrer">
+                GitHub · github.com/Yoonlimin
               </a>
               <a class="block px-4 py-2 rounded-xl bg-slate-900/40 ring-soft hover:bg-slate-900/60 transition"
-                 href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noreferrer">
-                LinkedIn · /in/YOUR_LINKEDIN
+                href="https://www.linkedin.com/in/yoon-waddy-myo-myint-1914a1380?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                target="_blank" rel="noreferrer">
+                LinkedIn · in/yoon-waddy-myo-myint-1914a1380
               </a>
               <a class="block px-4 py-2 rounded-xl bg-slate-900/40 ring-soft hover:bg-slate-900/60 transition"
-                 href="mailto:your@email.com">
-                Email · your@email.com
+                href="mailto:yoonwaddymm02@gmail.com">
+                Email · yoonwaddymm02@gmail.com
               </a>
             </div>
           </div>
         </div>
 
-        <p class="mt-3 text-xs text-slate-500">
-          Tip: Replace placeholders (YOUR_GITHUB_USERNAME, YOUR_LINKEDIN, YOUR_CV_LINK.pdf).
-        </p>
+
       </div>
     </div>
   </section>
@@ -153,8 +171,11 @@
     <div class="flex items-end justify-between gap-4">
       <div>
         <h2 class="text-3xl font-bold">Skills</h2>
-        <p class="text-slate-300 mt-2 max-w-2xl">
-          Full-stack development + cloud fundamentals. Strong hands-on experience in authentication, database integration, and API testing.
+        <p class="text-slate-300 mt-2 ">
+          Specialize in full-stack software development using Java and modern web technologies. My experience includes
+          frontend development with React/Next.js, backend API development, authentication implementation, database
+          integration (PostgreSQL, MongoDB, Firebase), and cloud-based deployment. I also have foundational knowledge in
+          machine learning and recommendation systems.
         </p>
       </div>
     </div>
@@ -195,7 +216,8 @@
       <div>
         <h2 class="text-3xl font-bold">Projects</h2>
         <p class="text-slate-300 mt-2 max-w-2xl">
-          Selected projects that show full-stack development, authentication, database integration, deployment, and recommendation logic.
+          Selected projects that show full-stack development, authentication, database integration, deployment, and
+          recommendation logic.
         </p>
       </div>
     </div>
@@ -204,7 +226,7 @@
       <!-- REO -->
       <article class="group glass ring-soft rounded-3xl overflow-hidden hover:ring-1 hover:ring-sky-500/50 transition">
         <div class="h-44 bg-slate-900/40 ring-soft flex items-center justify-center text-slate-500 text-sm">
-          [Add REO Screenshot]
+          <img src="reo.png" alt="REO Screenshot" class="h-full w-full object-cover">
         </div>
         <div class="p-6">
           <div class="flex items-center justify-between gap-3">
@@ -222,8 +244,10 @@
             <span class="px-2 py-1 rounded bg-slate-900/40 ring-soft">Vercel/Render</span>
           </div>
           <div class="mt-5 flex gap-3 text-sm">
-            <a class="hover:text-sky-400 transition" href="YOUR_REO_LIVE_LINK" target="_blank" rel="noreferrer">Live Demo →</a>
-            <a class="hover:text-sky-400 transition" href="YOUR_REO_GITHUB_LINK" target="_blank" rel="noreferrer">GitHub →</a>
+            <a class="hover:text-sky-400 transition" href="https://reo-virtual-business-card.vercel.app/"
+              target="_blank" rel="noreferrer">Live Demo →</a>
+            <a class="hover:text-sky-400 transition" href="https://github.com/Yoonlimin/Reo_Test" target="_blank"
+              rel="noreferrer">GitHub →</a>
           </div>
         </div>
       </article>
@@ -231,7 +255,7 @@
       <!-- SwapWise -->
       <article class="group glass ring-soft rounded-3xl overflow-hidden hover:ring-1 hover:ring-sky-500/50 transition">
         <div class="h-44 bg-slate-900/40 ring-soft flex items-center justify-center text-slate-500 text-sm">
-          [Add SwapWise Screenshot]
+          <img src="swapwise.png" alt="SwapWise Screenshot" class="h-full w-full object-cover">
         </div>
         <div class="p-6">
           <div class="flex items-center justify-between gap-3">
@@ -248,8 +272,9 @@
             <span class="px-2 py-1 rounded bg-slate-900/40 ring-soft">Google OAuth</span>
           </div>
           <div class="mt-5 flex gap-3 text-sm">
-            <a class="hover:text-sky-400 transition" href="YOUR_SWAPWISE_DEMO_LINK" target="_blank" rel="noreferrer">Demo →</a>
-            <a class="hover:text-sky-400 transition" href="YOUR_SWAPWISE_GITHUB_LINK" target="_blank" rel="noreferrer">GitHub →</a>
+
+            <a class="hover:text-sky-400 transition" href="https://github.com/Yoonlimin/SwapWise-SP1" target="_blank"
+              rel="noreferrer">GitHub →</a>
           </div>
         </div>
       </article>
@@ -257,7 +282,7 @@
       <!-- WorkHive -->
       <article class="group glass ring-soft rounded-3xl overflow-hidden hover:ring-1 hover:ring-sky-500/50 transition">
         <div class="h-44 bg-slate-900/40 ring-soft flex items-center justify-center text-slate-500 text-sm">
-          [Add WorkHive Screenshot]
+          <img src="WorkHive.png" alt="workhive screenshot" class="h-full w-full object-cover">
         </div>
         <div class="p-6">
           <div class="flex items-center justify-between gap-3">
@@ -273,104 +298,116 @@
             <span class="px-2 py-1 rounded bg-slate-900/40 ring-soft">RBAC</span>
           </div>
           <div class="mt-5 flex gap-3 text-sm">
-            <a class="hover:text-sky-400 transition" href="YOUR_WORKHIVE_GITHUB_LINK" target="_blank" rel="noreferrer">GitHub →</a>
+            <a class="hover:text-sky-400 transition" href="https://github.com/Yoonlimin/WorkHive" target="_blank"
+              rel="noreferrer">GitHub →</a>
           </div>
         </div>
       </article>
 
       <!-- Add new project card -->
-      <article class="glass ring-soft rounded-3xl p-6 flex flex-col justify-between">
+      <article class="glass ring-soft rounded-3xl p-6 flex flex-col justify-center items-center text-center">
+
         <div>
-          <h3 class="text-xl font-bold">Add Another Project</h3>
-          <p class="mt-2 text-slate-300 text-sm">
-            Add your smaller projects here (ML mini-project, AWS security setup, etc.).
+          <p class="text-2xl font-bold text-slate-100">
+            More projects available on my GitHub profile.
           </p>
-          <div class="mt-4 flex flex-wrap gap-2 text-xs">
-            <span class="px-2 py-1 rounded bg-slate-900/40 ring-soft">ML</span>
-            <span class="px-2 py-1 rounded bg-slate-900/40 ring-soft">AWS</span>
-            <span class="px-2 py-1 rounded bg-slate-900/40 ring-soft">Java</span>
-          </div>
         </div>
-        <a class="mt-6 inline-flex items-center justify-center px-4 py-3 rounded-2xl bg-slate-900/40 ring-soft hover:bg-slate-900/60 transition"
-           href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noreferrer">
+
+        <a class="mt-8 inline-flex items-center justify-center px-6 py-3 rounded-2xl 
+            bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-pink-600 text-slate-950 font-semibold transition" href="https://github.com/Yoonlimin"
+          target="_blank" rel="noreferrer">
           View All Repos →
         </a>
+
       </article>
     </div>
   </section>
 
   <!-- Certifications -->
   <section id="certs" class="max-w-6xl mx-auto px-6 py-14 border-t border-slate-800/70">
-    <h2 class="text-3xl font-bold">Certifications</h2>
-    <p class="text-slate-300 mt-2 max-w-2xl">AWS Academy badges + workshops.</p>
+  <h2 class="text-3xl font-bold">Certifications</h2>
+  <p class="text-slate-300 mt-2 max-w-2xl">AWS Academy badges + workshops.</p>
 
-    <div class="mt-8 grid md:grid-cols-2 gap-6">
-      <div class="glass ring-soft rounded-3xl p-6">
-        <h3 class="font-bold">AWS Cloud Security Foundations (2026)</h3>
-        <p class="text-slate-300 text-sm mt-2">AWS Academy Graduate badge.</p>
-      </div>
-      <div class="glass ring-soft rounded-3xl p-6">
-        <h3 class="font-bold">AWS Cloud Developing (2025)</h3>
-        <p class="text-slate-300 text-sm mt-2">AWS Academy Graduate badge.</p>
-      </div>
-      <div class="glass ring-soft rounded-3xl p-6">
-        <h3 class="font-bold">AWS Cloud Foundations (2025)</h3>
-        <p class="text-slate-300 text-sm mt-2">AWS Academy Graduate badge.</p>
-      </div>
-      <div class="glass ring-soft rounded-3xl p-6">
-        <h3 class="font-bold">Flutter & Firebase Code Camp (2023)</h3>
-        <p class="text-slate-300 text-sm mt-2">Workshop participation certificate.</p>
-      </div>
+  <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="glass ring-soft rounded-3xl p-6 text-center">
+     
+       <img src="security.png" alt="AWS Cloud Security Foundations" class="h-20 mx-auto mb-4 object-contain"> 
+      <h3 class="font-bold">AWS Cloud Security Foundations (2026)</h3>
+      <p class="text-slate-300 text-sm mt-2">AWS Academy Graduate badge.</p>
     </div>
-  </section>
 
-  <!-- Contact -->
-  <section id="contact" class="max-w-6xl mx-auto px-6 py-14 border-t border-slate-800/70">
-    <div class="glass ring-soft rounded-3xl p-8 md:p-10">
-      <div class="grid md:grid-cols-12 gap-8 items-center">
-        <div class="md:col-span-7">
-          <h2 class="text-3xl font-bold">Let’s build something</h2>
-          <p class="mt-3 text-slate-300 max-w-xl">
-            If you’re hiring a junior software developer, I’d love to connect.
-            I’m comfortable with full-stack development, authentication, database integration, and cloud fundamentals.
-          </p>
-          <div class="mt-6 flex flex-wrap gap-3">
-            <a href="mailto:your@email.com" class="px-6 py-3 rounded-2xl bg-sky-500 hover:bg-sky-600 text-slate-950 font-bold transition">
-              Email Me
-            </a>
-            <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noreferrer"
-               class="px-6 py-3 rounded-2xl border border-slate-700 hover:bg-slate-800/60 transition">
-              GitHub
-            </a>
-            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noreferrer"
-               class="px-6 py-3 rounded-2xl border border-slate-700 hover:bg-slate-800/60 transition">
-              LinkedIn
-            </a>
-          </div>
-        </div>
+    <div class="glass ring-soft rounded-3xl p-6 text-center">
+      <!-- Optional image -->
+      <img src="develop.png" alt="AWS Cloud Developing" class="h-20 mx-auto mb-4 object-contain">
+      <h3 class="font-bold">AWS Cloud Developing (2025)</h3>
+      <p class="text-slate-300 text-sm mt-2">AWS Academy Graduate badge.</p>
+    </div>
 
-        <div class="md:col-span-5">
-          <div class="p-6 rounded-3xl bg-slate-900/40 ring-soft">
-            <p class="text-sm text-slate-300">
-              <span class="text-slate-400">Email:</span> your@email.com<br/>
-              <span class="text-slate-400">Location:</span> Bangkok, Thailand<br/>
-              <span class="text-slate-400">Languages:</span> Burmese (Native), English (Fluent), Japanese (JLPT N3), Korean (Conversational), Thai (Basic)
-            </p>
-          </div>
-          <p class="mt-3 text-xs text-slate-500">
-            You can also link your REO live demo and Credly badges here.
-          </p>
+    <div class="glass ring-soft rounded-3xl p-6 text-center">
+      <!-- Optional image -->
+      <img src="foundation.jpg" alt="AWS Cloud Foundations" class="h-20 mx-auto mb-4 object-contain">
+      <h3 class="font-bold">AWS Cloud Foundations (2025)</h3>
+      <p class="text-slate-300 text-sm mt-2">AWS Academy Graduate badge.</p>
+    </div>
+
+    <div class="glass ring-soft rounded-3xl p-6 text-center">
+      <!-- Optional image -->
+      <img src="CodeCamp.jpg" alt="Flutter & Firebase Code Camp" class="h-20 mx-auto mb-4 object-contain">
+      <h3 class="font-bold">Flutter & Firebase Code Camp (2023)</h3>
+      <p class="text-slate-300 text-sm mt-2">Workshop participation certificate.</p>
+    </div>
+  </div>
+</section>
+<!-- Contact -->
+<section id="contact" class="max-w-6xl mx-auto px-6 py-14 border-t border-slate-800/70">
+  <div class="glass ring-soft rounded-3xl p-8 md:p-10">
+    <div class="grid md:grid-cols-12 gap-8 items-center">
+
+      <!-- Left Side -->
+      <div class="md:col-span-6">
+        <h2 class="text-3xl font-bold">Get In Touch</h2>
+
+        <p class="mt-3 text-slate-300 max-w-xl leading-relaxed">
+          Thank you for visiting my portfolio. I am currently open to junior software developer
+          opportunities and would be grateful for the opportunity to contribute and grow within your team.
+        </p>
+
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="mailto:yoonwaddymm02@gmail.com"
+            class="px-6 py-3 rounded-2xl bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-pink-600 text-white font-semibold transition">
+            Contact Me
+          </a>
+
+          <a href="https://github.com/Yoonlimin" target="_blank"
+            class="px-6 py-3 rounded-2xl border border-slate-700 hover:bg-slate-800/60 transition">
+            GitHub Profile
+          </a>
+
+          <a href="https://www.linkedin.com/in/yoon-waddy-myo-myint-1914a1380?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank"
+            class="px-6 py-3 rounded-2xl border border-slate-700 hover:bg-slate-800/60 transition">
+            LinkedIn Profile
+          </a>
         </div>
       </div>
+
+      <!-- Right Side (GIF / Image) -->
+      <div class="md:col-span-6 flex justify-center">
+        <img src="kuromi-thank-you.gif"
+             alt="Developer Illustration"
+             class="max-w-xs md:max-w-md rounded-3xl shadow-xl hover:scale-105 transition duration-300">
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <footer class="max-w-6xl mx-auto px-6 py-10 text-center text-slate-500 text-sm">
-    © <span id="year"></span> Your Name · Built with Tailwind CSS
+    © <span id="year"></span> Yoonlimin · Built with Tailwind CSS
   </footer>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
+
 </html>
